@@ -1,0 +1,13 @@
+.gameJoin input, .gameJoin select {
+    font-size: 20px;
+}
+
+.gameJoin label {
+    font-size: 18px;
+    color: #b8b8b8;
+}
+
+.gameJoin .gameName {
+    font-size: 16px;
+    color: #999;
+}
