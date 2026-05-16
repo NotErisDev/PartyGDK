@@ -1,4 +1,4 @@
-![PartyGDK Logo](https://github.com/NotErisDev/PartyGDK/blob/main/assets/img/logo_full_transparent.jpg?raw=true)
+![PartyGDK Logo](https://github.com/NotErisDev/PartyGDK/blob/main/assets/img/logo_full_transparent.png?raw=true)
 
 # PartyGDK
 **Мой набор для создания Jackbox-подобных игр на Unity.**
