@@ -1,0 +1,91 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.buttonsHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.waitingForInputs {
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-secondary);
+}
+
+.card {
+  background-color: #070707;
+}
+
+.playerCard p {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+button {
+  margin: 4px 0;
+}
+
+button.btnYellow {
+  background-color: #c5821e;
+  color: #fff !important;
+}
+
+button.btnYellow:hover {
+  background-color: #a77223;
+}
+
+button.btnYellow:active {
+  background-color: #855917;
+}
+
+button.btnRed {
+  background-color: #e4224c;
+  color: #fff !important;
+}
+
+button.btnRed:hover {
+  background-color: #af2442;
+}
+
+button.btnRed:active {
+  background-color: #8a1932;
+}
+
+button.btnGreen {
+  background-color: #1fa356;
+  color: #fff !important;
+}
+
+button.btnGreen:hover {
+  background-color: #12793d;
+}
+
+button.btnGreen:active {
+  background-color: #0f572d;
+}
+
+.bg-approved {
+  background-color: #1c3426;
+  border: 1px solid #2ae377;
+}
+
+.bg-rejected {
+  background-color: #371b1f;
+  border: 1px solid #df3952;
+}
+
+.bg-rejected p {
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+.inputCard .authorName {
+  color: #777;
+  font-size: 14px;
+}

@@ -1,0 +1,32 @@
+body {
+  background-image: url('/static/img/gen-z-humor-2/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  --color-primary: #e9394b;
+  --color-secondary: #bb404c;
+  --color-tertiary: #fff;
+
+  font-family: 'Balsamiq Sans', sans-serif;
+  color: var(--color-tertiary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Geologica', sans-serif;
+}
+
+.logo {
+  background-image: url('/static/img/gen-z-humor-2/logo.png');
+}
+
+input[type="text"] {
+  background-color: #fff !important;
+  color: #111 !important;
+  border: 2px solid var(--color-primary) !important;
+}
+
+.swal2-modal {
+  background-color: #fff !important;
+  color: #111 !important;
+}

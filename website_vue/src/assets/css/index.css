@@ -1,0 +1,156 @@
+:root {
+  --color-primary: #f5f5f5;
+  --color-secondary: #999;
+  --color-tertiary: #040404;
+  --color-bg-input: #090909;
+
+  --font-family: 'Inter', sans-serif;
+}
+
+body {
+  min-width: 320px;
+
+  background-color: #0e0e0e;
+  color: var(--color-primary);
+
+  font-size: 18px;
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: var(--color-secondary);
+  transition: color .3s;
+}
+
+a:hover {
+  color: #777;
+}
+
+a:active {
+  color: #555;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+}
+
+.form-label {
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
+input[type="text"], input[type="password"] {
+  border-radius: 16px;
+  border: 1px solid var(--color-secondary) !important;
+  background-color: var(--color-bg-input);
+  color: var(--color-primary) !important;
+  font-size: 18px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  background-color: var(--color-bg-input);
+  border: 1px solid var(--color-secondary);
+  box-shadow: none;
+}
+
+.btn {
+  font-weight: 600;
+  border: none;
+  border-radius: 16px;
+}
+
+.btn:focus, .btn:active {
+  box-shadow: none !important;
+}
+
+.btn.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+}
+
+.btn.btn-primary:hover {
+  background-color: color-mix(in srgb, var(--color-primary), #000 25%);
+}
+
+.btn.btn-primary:active {
+  background-color: color-mix(in srgb, var(--color-primary), #000 50%);
+}
+
+.btn.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+}
+
+.btn.btn-secondary:hover {
+  background-color: color-mix(in srgb, var(--color-secondary), #000 25%);
+}
+
+.btn.btn-secondary:active {
+  background-color: color-mix(in srgb, var(--color-secondary), #000 50%);
+}
+
+.btn.btn-outline-primary {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn.btn-outline-primary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  border-color: transparent;
+}
+
+.btn.btn-outline-primary:active {
+  background-color: color-mix(in srgb, var(--color-primary), #000 50%);
+  color: var(--color-tertiary);
+  border-color: transparent;
+}
+
+.swal2-modal {
+  background-color: #111 !important;
+  color: var(--color-secondary) !important;
+  border-radius: 16px !important;
+}
+
+.swal2-title {
+  color: var(--color-primary) !important;
+}
+
+.swal2-confirm {
+  background-color: var(--color-primary) !important;
+  color: var(--color-tertiary) !important;
+  border-radius: 16px !important;
+  transition: background-color .3s !important;
+  box-shadow: none !important;
+}
+
+.swal2-confirm:hover {
+  background-color: color-mix(in srgb, var(--color-primary), #000 25%) !important;
+}
+
+.swal2-confirm:hover {
+  background-color: color-mix(in srgb, var(--color-primary), #000 50%) !important;
+}
+
+.swal2-show {
+  -webkit-animation: modal-show .25s ease !important;
+  animation: modal-show .25s ease !important;
+}
+
+@keyframes modal-show {
+  0% {
+  transform: scale(.6);
+  opacity: 0;
+  }
+
+  100% {
+  transform: scale(1);
+  }
+}

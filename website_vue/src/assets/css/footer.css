@@ -1,0 +1,32 @@
+footer {
+  width: 100%;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 8px;
+  min-height: 72px;
+  font-size: 14px;
+  margin-top: 90px;
+}
+
+.footerText {
+  color: var(--color-secondary);
+}
+
+.footerText a {
+  color: var(--color-primary);
+}
+
+.footerText a:hover {
+  color: #bbb;
+}
+
+.footerText a:active {
+  color: #999;
+}
+
+.versionText {
+  font-size: 12px;
+  color: #777;
+}

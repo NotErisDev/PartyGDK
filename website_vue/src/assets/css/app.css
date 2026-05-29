@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+}
+
+.playerName {
+  margin-top: 16px;
+  font-size: 36px;
+}
+
+.content {
+  margin-top: 32px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.content .logo {
+  width: 50vw;
+  height: 20vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;   
+}
+
+.inputList {
+  margin: 18px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputList.disabled {
+  pointer-events: none;
+  opacity: .65;
+}
+
+.inputList * {
+  margin: 8px;
+}
+
+.choiceBtn {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.submitBtn {
+  font-size: 22px;
+}
+
+.roleText {
+  position: relative;
+  top: -8px;
+}
+
+.prompt {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+input[type="text"] {
+  max-width: 512px;
+}
+
+.rangeContainer, .checkboxContainer {
+  display: flex;
+}
+
+.rangeContainer label {
+  min-width: 80px;
+  text-align: right;
+}
+
+.rangeContainer .form-range {
+  max-width: 480px;
+}
+
+.checkboxContainer {
+  margin: 0;
+}

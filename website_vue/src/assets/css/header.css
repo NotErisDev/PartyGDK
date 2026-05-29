@@ -1,0 +1,59 @@
+header {
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  background-color: var(--color-tertiary);
+  padding: 8px 32px;
+  min-height: 72px;
+  margin-bottom: 64px;
+}
+
+header .logo {
+  width: 48px;
+  height: 48px;
+  user-select: none;
+}
+
+header .links {
+  margin-left: 24px;
+}
+
+header .links a {
+  margin: 0 8px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+header .icon-links {
+  position: absolute;
+  right: 16px;
+}
+
+header .icon-links a {
+  opacity: .5;
+  margin: 0 8px;
+  transition: opacity .3s;
+}
+
+header .icon-links a:hover {
+  opacity: .75;
+}
+
+header .icon-links a:active {
+  opacity: 1;
+}
+
+header .icon-links img {
+  width: 36px;
+  height: 36px;
+  user-select: none;
+}
+
+@media screen and (max-width: 512px) {
+  header .icon-links {
+  position: relative;
+  right: 0;
+  margin-left: 18px;
+  }
+}

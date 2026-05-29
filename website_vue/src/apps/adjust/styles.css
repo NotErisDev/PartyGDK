@@ -1,0 +1,41 @@
+body {
+  background-image: url('/static/img/adjust/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  --color-primary: #777;
+  --color-secondary: #333;
+  --color-tertiary: #fff;
+
+  font-family: 'Unbounded', sans-serif;
+  color: var(--color-tertiary);
+}
+
+.logo {
+  background-image: url('/static/img/adjust/logo.png');
+}
+
+input[type="text"] {
+  background-color: #222 !important;
+  color: #fff !important;
+  border: 2px solid var(--color-primary) !important;
+}
+
+button {
+  border-radius: 128px !important;
+  border: 2px solid #fffc !important;
+  box-shadow: 0 0 8px #fff5 !important;
+}
+
+.swal2-modal {
+  color: #fff !important;
+}
+
+.swal2-title {
+  color: #fff !important;
+}
+
+.swal2-confirm {
+  border-radius: 128px !important;
+}
