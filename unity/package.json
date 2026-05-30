@@ -1,6 +1,6 @@
 {
     "name": "com.erisdev.partygdk",
-    "version": "0.9.5",
+    "version": "0.9.6",
     "displayName": "PartyGDK",
     "description": "Base scripts to create Jackbox-like party games.",
     "unity": "2022.1",

@@ -60,7 +60,7 @@ namespace PartyGDK.Base.Settings
             if (resolutions.Length == 0)
                 return;
 
-            Resolution resolution = resolutions[Math.Min(_resolutionIndex, resolutions.Length)];
+            Resolution resolution = resolutions[Math.Min(_resolutionIndex, resolutions.Length - 1)];
 
             Screen.SetResolution(resolution.width, resolution.height,
                 _fullscreen ? FullScreenMode.FullScreenWindow : FullScreenMode.Windowed, resolution.refreshRateRatio);
